@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6-Nov-2018, 7:35:29 PM
+    Author     : nicolesawler
+*/
+
+                    
+@font-face {
+    font-family: 'Layzy';
+    src: url(../fonts/lazysketch.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Kiona';
+    src: url(../fonts/Kiona-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'oxtailblack';
+    src: url(../fonts/oxtailblack-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'oxtailbold';
+    src: url(../fonts/oxtailbold-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'oxtailmedium';
+    src: url(../fonts/oxtailmedium-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'whitneybold';
+    src: url(../fonts/Whitney-Medium.otf) format('opentype');
+}
+@font-face {
+    font-family: 'whitney';
+    src: url(../fonts/Whitney-Book.otf) format('opentype');
+}
+@font-face {
+    font-family: 'c7';
+    src: url(../fonts/c7nazara.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'omnes';
+    src: url(../fonts/omnes-regular-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'omnesbold';
+    src: url(../fonts/omnes-medium.ttf) format('truetype');
+}
+a{color:#312060;text-decoration:none;}
+.pre b{color:#9498c9!important;}/*#9498c9 #6267a3 #a090cd*/
+
+.layzy-font{font-family: 'Layzy';}
+.layzy-font2{font-family: 'Kiona';}
+.layzy-font3{font-family: "Lucida Grande", arial, sans-serif;}
+
+.oxtailblack{font-family: 'oxtailblack', arial, sans-serif;}
+.oxtailbold{font-family: 'oxtailbold', arial, sans-serif;}
+.oxtailmedium{font-family: 'oxtailmedium', arial, sans-serif;}
+
+.whitney{font-family: 'whitney', arial, sans-serif;}
+.whitneybold{font-family: 'whitneybold', arial, sans-serif;}
+
+.c7{font-family: 'c7', arial, sans-serif;}
+.omnes{font-family: 'omnes', arial, sans-serif;}
+.omnesbold{font-family: 'omnesbold', arial, sans-serif;}
+
+.darkpurple{color:#312060;}
+.darkblue{color:#0d294a;}
+.purple{color:#513687;}
+.blue{color:#173058;}
+
+.darkgray{color:#b7b7b7;}
+
+html,body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color:#791a68;
+    font-family: 'omnes';
+}
+
+.bg-darkblue{background-color:#173058;}
+.bg-darkpurple{background-color:#312060;}
+
+.bg-black{background-color:black;}
+.bg-white{background-color:white;}
+.bg-blue{background-color:#4a8eff;}
+.bg-lightgray{background-color:#eee;}
+.bg-gray{background-color:#ccc;}
+
+.border-black{border-color:black!important;}
+.border-white{border-color:white!important;}
+.border-gray{border-color:#ccc!important;}
+.border-lightgray{border-color:#eee!important;}
+
+.white{color:white!important;}
+.black{color:black!important;}
+.lightgray{color:#eeeeee!important;}
+.gray{color:#cccccc!important;}
+
+.border-black{border:1px solid black;}
+.border-white{border:1px solid white;}
+
+.bg-img1{background-image:url('../images/bgggray.png')}
+.bg-img2{background-image:url('../images/bgg3.png')}
+.bg-img3{background-image:url('images/bgg.png')}
+.bg-img4{background-image:url('images/bgg.png')}
+.bg-img5{background-image:url('../images/mapdots.png')}
+
+h5{font-family:kiona;text-transform: uppercase;font-size:22px;margin:10px 0;}
+
+button.slick:hover{
+    border-color: black;
+    color:white;
+    background-color:black;
+}
+button.bubble:hover{
+    border-color: black;
+    color:white;
+    background-color:black;
+}
+
+button.shadow{
+    border-color: #0c2646;
+    color:white;
+    background-color:#102f53;
+    box-shadow:3px 3px #0c2646;
+}
+button.shadow:hover{
+    border-color: #0c2646;
+    color:white;
+    background-color:#0c2646;
+}

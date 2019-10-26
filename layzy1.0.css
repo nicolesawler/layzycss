@@ -1,7 +1,7 @@
 /*!
  * Layzy.css
  * 
- * Version - 1.1
+ * Version - 1.0.0
  * Copyright (c) 2018 Nicole Sawler
  */
 /* 
@@ -11,22 +11,60 @@
 /* 
     Table of Contents:
 
-    MASONRY TOOLS (COLUMNS)
-    BACKGROUNDS 
-    BORDERS
-    WIDTH/HEIGHT
-    MARGINS
-    PADDING
-    POSITIONING (TOP, LEFT ETC)
-    SPACERS
-    CURSORS
-    FONTS
-    SYMBOLS
-    BUTTONS
-    TABLES
-    TABS
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
+    .something     : Definition
 
-*/
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 400;
+    --breakpoint-sm: 540px;
+    --breakpoint-md: 778px;
+    --breakpoint-lg: 990px;
+    --breakpoint-xl: 1200px;
+}
+:root {
+    --breakpoint-small: 600px;
+    --theme-color: rebeccapurple;
+}
+
+@media screen and (min-width: breakpoint-small) {
+  body {
+    background: var(theme-color);
+  }
+}*/
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -14887,84 +14925,11 @@ button.buttonless{
 
 
 
-/*
-
-    ____________________________________________________Colors
-
-*/
-
-/*FONT*/
-.darkblue{color:#003399!important;}
-.blue{color:#007bff!important;}
-.lightblue{color:#66ccff!important;}
-.darkindigo{color:#330099!important;}
-.indigo{color:#6610f2!important;}
-.lightindigo{color:#9999ff!important;}
-.darkpurple{color:#6600cc!important;}
-.purple{color:#6f42c1!important;}
-.lightpurple{color:#9966ff!important;}
-.darkpink{color:#cc0099!important;}
-.pink{color:#e83e8c!important;}
-.lightpink{color:#ffccff!important;}
-.darkred{color:#990033!important;}
-.red{color:#dc3545!important;}
-.lightred{color:#ff9999!important;}
-.darkorange{color:#ff6600!important;}
-.orange{color:#fd7e14!important;}
-.lightorange{color:#ff9933!important;}
-.puke{color:#cccc00!important;}
-.yellow{color:#ffc107!important;}
-.lightyellow{color:#ffcc66!important;}
-.green{color:#28a745!important;}
-.lightgreen{color:#66cc00!important;}
-.teal{color:#20c997!important;}
-.darkcyan{color:#17a2b8!important;}
-.cyan{color:cyan!important;}
-.magenta{color:magenta!important;}
-.white{color:#fff!important;}
-.gray{color:#6c757d!important;}
-.darkgray{color:#666666!important;}
-.light{color:#f8f9fa!important;}
-.dark{color:#343a40!important;}
-.black{color:#000!important;}
-/*.{color:#;}*/
 
 
-/* BACKGROUNDS */
-.bgdarkblue{background-color:#003399!important;}
-.bgblue{background-color:#007bff!important;}
-.bglightblue{background-color:#66ccff!important;}
-.bgdarkindigo{background-color:#330099!important;}
-.bgindigo{background-color:#6610f2!important;}
-.bglightindigo{background-color:#9999ff!important;}
-.bgdarkpurple{background-color:#6600cc!important;}
-.bgpurple{background-color:#6f42c1!important;}
-.bglightpurple{background-color:#9966ff!important;}
-.bgdarkpink{background-color:#cc0099!important;}
-.bgpink{background-color:#e83e8c!important;}
-.bglightpink{background-color:#ffccff!important;}
-.bgdarkred{background-color:#990033!important;}
-.bgred{background-color:#dc3545!important;}
-.bglightred{background-color:#ff9999!important;}
-.bgdarkorange{background-color:#ff6600!important;}
-.bgorange{background-color:#fd7e14!important;}
-.bglightorange{background-color:#ff9933!important;}
-.bgpuke{background-color:#cccc00!important;}
-.bgyellow{background-color:#ffc107!important;}
-.bglightyellow{background-color:#ffcc66!important;}
-.bggreen{background-color:#28a745!important;}
-.bglightgreen{background-color:#66cc00!important;}
-.bgteal{background-color:#20c997!important;}
-.bgdarkcyan{background-color:#17a2b8!important;}
-.bgcyan{background-color:cyan!important;}
-.bgmagenta{background-color:magenta!important;}
-.bgwhite{background-color:#fff!important;}
-.bggray{background-color:#6c757d!important;}
-.bgdarkgray{background-color:#666666!important;}
-.bglight{background-color:#f8f9fa!important;}
-.bgdark{background-color:#343a40!important;}
-.bgblack{background-color:#000!important;}
-/*.{color:#;}*/
+
+
+
 
 
 
@@ -15098,7 +15063,7 @@ img.roundy{border-radius:50%;}
 img.thumby{background-color:white;padding:7px; border:1px solid #ccc;}
 img.photo{border-radius:10px;}
 img {
-  border-style: none;max-width:100%;
+  border-style: none;
 }
 
 /*
@@ -15114,24 +15079,6 @@ nav section{}
 @media (max-width:992px){
     nav a.pagelink{display:block;float:none;width:100%;}  
 }
-
-/*
-
-    ____________________________________________________ SHAPES
-
-*/
-
-
-/*.square {width: 50px;height: 50px;background: black;}
-.rectangle { width: 100px; height: 50px; background: black; }
-.circle { width: 50px; height: 50px; background: black; border-radius: 50% }
-.oval { width: 120px; height: 80px; background: black; border-radius: 140px / 90px; }
-.triangle { width: 0; height: 0; border-left: 25px solid transparent; border-right: 25px solid transparent; border-bottom: 50px solid black; }
-.tri-down { width: 0; height: 0; border-left: 25px solid transparent; border-right: 25px solid transparent; border-top: 50px solid black; }
-.tri-left { width: 0; height: 0; border-top: 25px solid transparent; border-right: 50px solid black; border-bottom: 25px solid transparent; }
-.tri-right { width: 0; height: 0; border-top: 25px solid transparent; border-left: 50px solid black; border-bottom: 25px solid transparent; }*/
-
-   
 
 /*
 
@@ -15152,7 +15099,7 @@ table.tbl tbody {display: table-row-group;}
 table.tbl tr {display: table-row;}
 table.tbl td, th {display: table-cell;}
 table.tbl caption, table.tbl th, table.tbl td {margin: 0;outline: 0;vertical-align: baseline;}
-table.tbl th{
+table.tbl th {
     border: 1px solid #e0e0e0;
     border-width: 0 1px 1px 0;
     font-size: 15px;
